@@ -1,6 +1,6 @@
 // app.js - JobLens Frontend Application
 
-const API = 'http://localhost:3001/api';
+const API = window.location.origin + '/api';
 
 // =================== STATE ===================
 let state = {
